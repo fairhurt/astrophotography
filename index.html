@@ -3,15 +3,100 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>PNW Astrophotography</title>
+    <!-- This is a 3rd-party stylesheet to make available the font family to be used for this page ("Roboto"). -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+
+   <!-- This 3rd-party stylesheet incorporates SVG icons from Font Awesome: http://fontawesome.com/ -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body>
-    <h1 ALIGN=CENTER> PNW Astrophotography</h1>
 
-    <div>
-      <p> Welcome to Pacific Northwest Astrophotography!</p>
-    </div>
+    <header>
+   <!-- The <i> tag below includes the bullhorn icon from Font Awesome -->
+   <a href="#"><h1 class="site-title"><i class="fas fa-space-shuttle"></i>PNW Astrophotography</h1></a>
 
-    <p class="body"> This site serves as a place to post pictures of my astrophotography adventures</p>
+   <nav class="navbar">
+     <ul class="navlist">
+       <li class="navitem navlink active"><a href="#">Home</a></li>
+           <li class="navitem navbar-search">
+         <input type="text" id="navbar-search-input" placeholder="Search...">
+         <button type="button" id="navbar-search-button"><i class="fas fa-search"></i></button>
+       </li>
+     </ul>
+   </nav>
+ </header>
+ <main class="object-container">
+
+   <article class="object">
+     <div class="object-icon">
+       <i class="fas fa-bullhorn"></i>
+     </div>
+     <div class="object-content">
+       <p class="object-text">
+
+       </p>
+       <p class="object-author">
+         <a href="#">Galaxies and Supernovas</a>
+       </p>
+     </div>
+   </article>
+
+
+   <article class="object">
+     <div class="object-icon">
+       <i class="fas fa-bullhorn"></i>
+     </div>
+     <div class="object-content">
+       <p class="object-text">
+
+       </p>
+       <p class="object-author">
+         <a href="#">Stars</a>
+       </p>
+     </div>
+   </article>
+
+
+   <article class="object">
+     <div class="object-icon">
+       <i class="fas fa-bullhorn"></i>
+     </div>
+     <div class="object-content">
+       <p class="object-text">
+
+       </p>
+       <p class="object-author">
+         <a href="#">Constellations</a>
+       </p>
+     </div>
+   </article>
+
+
+   <article class="object">
+     <div class="object-icon">
+       <i class="fas fa-bullhorn"></i>
+     </div>
+     <div class="object-content">
+       <p class="object-text">
+
+       </p>
+       <p class="object-author">
+         <a href="miscellaneous.html">Miscellaneous</a>
+       </p>
+     </div>
+   </article>
+
+
+
+   </main>
+
+   <button type="button" id="create-object-button"><i class="fas fa-bullhorn"></i></button>
+
+
+
+
   </body>
 </html>
