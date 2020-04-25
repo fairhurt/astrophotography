@@ -18,6 +18,10 @@ background-color: #319df6;
 .site-title{
  margin:0;
  padding-left: 15px;
+ font-family: Roboto;
+ font-weight: 350;
+ color: black;
+ background-color: #319df6;
 }
 .navbar-list {
  list-style-type: none;
